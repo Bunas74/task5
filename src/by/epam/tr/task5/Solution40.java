@@ -36,9 +36,7 @@ public class Solution40 {
         System.out.println();
         
         
-        
-		      int[][] ar = new int[n][n];
-		      
+        int[][] ar = new int[n][n];		      
         
         int count = 1;
         
@@ -94,18 +92,17 @@ public class Solution40 {
             
         }
         
-        
-	        for(int m = 0; m < ar.length; m++) {
-	            
-	           for(int k = 0; k < ar[m].length; k++) {
+         for(int m = 0; m < ar.length; m++) {
+		 
+	      for(int k = 0; k < ar[m].length; k++) {
 	               
-	               System.out.printf("[%3d]", ar[m][k]);
+	           System.out.printf("[%3d]", ar[m][k]);
 	               
-	               }
+	      }
 	               
-	               System.out.println("\n");
+	      System.out.println("\n");
 	   
-	           }
+	 }
      
     }
         	
